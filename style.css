@@ -34,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: auto;
   padding: auto;
 }
@@ -42,8 +43,6 @@ body * {
 /* Profile */
 #profile {
   display: flex;
-  width: 100%;
-  max-width: 588px;
   padding: 24px;
   flex-direction: column;
   align-items: center;
